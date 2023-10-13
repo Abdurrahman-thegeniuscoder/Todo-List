@@ -75,7 +75,7 @@ input[type=text]:focus {
 }
 
 .inner-nav a {
-    margin: 0 25px;
+    margin: 0 2rem;
 }
 
 .title {
@@ -198,10 +198,22 @@ input[type=text]:focus {
     .box {
         width: 50%;
     }
+    .cursor-dot, .cursor-outline {
+        display: none;
+    }
 }
 
 @media (max-width: 610px) {
     .box {
         width: 90%;
+    }
+    .inner-nav a {
+        margin: 0 1.5rem;
+    }
+    .cursor-dot, .cursor-outline {
+        display: none;
+    }
+    .title {
+        margin: 10px;
     }
 }
